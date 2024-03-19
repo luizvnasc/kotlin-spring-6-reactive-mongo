@@ -40,6 +40,7 @@ dependencies {
     implementation("org.mapstruct:mapstruct:1.6.0.Beta1")
     kapt("org.mapstruct:mapstruct-processor:1.6.0.Beta1")
     kapt("org.springframework.boot:spring-boot-configuration-processor:3.2.3")
+    testImplementation("org.awaitility:awaitility:4.2.0")
 }
 
 tasks.withType<KotlinCompile> {
